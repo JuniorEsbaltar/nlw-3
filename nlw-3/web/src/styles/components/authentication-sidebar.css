@@ -1,0 +1,23 @@
+aside.authentic-sidebar {
+  background: linear-gradient(329.54deg, #15b6d6 0%, #15d6d6 100%);
+  position: fixed;
+
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside.authentic-sidebar .logo-tipo {
+  padding: 200px;
+}
+
+aside.authentic-sidebar .location {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

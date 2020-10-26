@@ -1,0 +1,69 @@
+.login-page {
+  display: flex;
+}
+
+.login-page main {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 40%;
+
+  background: #ffffff;
+  display: flex;
+  padding-left: 120px;
+  align-items: center;
+}
+
+.login-page main .login-content {
+  width: 360px;
+  height: 430px;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-page main .login-content h2 {
+  color: #5c8599;
+}
+.login-page main .login-content span {
+  padding-top: 20px;
+  color: #8fa7b2;
+}
+
+.login-page main .login-content input:not([type='checkbox']) {
+  height: 50px;
+  background: #f5f8fa;
+  border: #a1e9c5 solid 2px;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 10px;
+  color: #5c8599;
+}
+
+.login-page main .login-content button {
+  background: #37c77f;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  opacity: 40%;
+}
+
+.login-page main .login-content button.active {
+  opacity: 100%;
+}
+
+.login-page main .login-content button:focus {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.login-page main .login-content .account-settings {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
